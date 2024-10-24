@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listener</title>
+</head>
+<body>
+    
+    <h1>clique no botão abaixo e crie sua lista >;D</h1>
+    <button>Uhu</button>
+
+    <ol></ol>
+
+    <script>
+        let li
+
+        document.querySelector('button').addEventListener('click', ()=>{
+            li =  document.createElement('li')
+            li.innerText="yaayy!"
+            document.querySelector('ol').appendChild(li)
+        })
+    </script>
+</body>
+</html>

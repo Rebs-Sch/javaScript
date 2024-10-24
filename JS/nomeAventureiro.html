@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Aventura</title>
+</head>
+<body>
+    
+<button>O seu nome de aventureiro é:</button>
+<p></p>
+
+<script>
+    const titulos = ["Sr.", "Mister", "Dom", "Lord", "Lady", "Capitão", "Dama"]
+    const nomes = ["Arthur", "Gwendolyn", "Merlin", "Lancelot", "Morgana", "Ragnar", "Éowyn"]
+    const classes = ["Mago", "Paladino", "Arqueiro", "Ladino", "Bárbaro", "Feiticeiro", "Cavaleiro"]
+    const locais = ["Valfenda", "Gondor", "Asgard", "Camelot", "Nárnia", "Babilônia", "Atlantis"]
+
+    document.querySelector('button').addEventListener('click', ()=>{
+        let titulo = titulos[Math.floor(Math.random() * titulos.length)]
+        let nome = nomes[Math.floor(Math.random() * nomes.length)]
+        let classe = classes[Math.floor(Math.random() * classes.length)]
+        let local = locais[Math.floor(Math.random() * locais.length)]
+
+        document.querySelector('p').innerText = titulo+" "+nome+", o "+classe+" de "+local+"."
+    })
+
+</script>
+</body>
+</html>

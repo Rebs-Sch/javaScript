@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+</head>
+<body>
+    
+    <img src="img/wallpaper.jpg" alt="">
+    <p>hmmmmmmmm</p>
+
+    <script>
+        let pet = document.querySelector('img')
+        let fala = document.querySelector('p')
+
+        pet.addEventListener('click', ()=>{
+            fala.textContent = "Ai!"
+        })
+        pet.addEventListener('mouseenter', ()=>{
+            fala.textContent = "Sai daqui!"
+        })
+        pet.addEventListener('mouseleave', ()=>{
+            fala.textContent = "Ufa..."
+        })
+        pet.addEventListener('mousemove', ()=>{
+            setTimeout(fala.textContent = "Você está me irritando!", 2000);
+
+        })
+    </script>
+</body>
+</html>

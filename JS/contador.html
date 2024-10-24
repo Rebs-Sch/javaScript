@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contação</title>
+</head>
+<body>
+    
+    <button onclick="mensage()">Uhu</button>
+    <p>0</p>
+
+    <script>
+        let contage = 0
+
+        document.querySelector('button').addEventListener('click', ()=>{
+            contage++
+            document.querySelector('p').innerText=contage
+        })
+
+    </script>
+</body>
+</html>
