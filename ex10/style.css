@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.erro{
+    display: none;
+    color: tomato;
+}
+
+.grupo{
+    padding: 5px;
+}
+
+input{
+    outline: none;
+}
+
+input.invalido{
+    border: solid 2px tomato;
+    border-radius: 3px;
+}
