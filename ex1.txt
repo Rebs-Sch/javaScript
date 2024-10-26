@@ -1,0 +1,1 @@
+O java script é uma linguagem de programação aplamente utilizada no desenvolvimento front-end com o objetivo de adicionar mais interatividade com o site. Ele pode criar efeitos visuais para melhorar a experiência estética do usuario, auxiliar a validação de formulários com respostas imediatas, entre diversas outras coisas.
